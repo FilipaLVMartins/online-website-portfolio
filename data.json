@@ -1,0 +1,21 @@
+{
+  "name": "Filipa Martins",
+  "subtitle": "Informatics & Computing Engineering Student FEUP",
+  "about": "Passionate about technology and software development. Currently in my 2nd year of the Bachelor's degree in Informatics and Computing Engineering at FEUP, focused on problem-solving, algorithm optimization, and building interactive applications.",
+  "skills": ["Python", "C++", "Java", "HTML/CSS/JavaScript", "Git & GitHub", "SupaBase"],
+  "game": {
+    "title": "Guess The Song",
+    "subtitle": "Music Trivia Challenge",
+    "description": "An interactive web-based music trivia guessing game.",
+    "image": "static/images/capa.jpg",
+    "itch_url": "https://filipalvmartins.itch.io/guess-the-song"
+  },
+  "contacts": {
+    "personal_email": "filipalvmartins@gmail.com",
+    "academic_email": "up202505454@edu.fe.up.pt",
+    "phone": "+351 933 665 594",
+    "location": "Gondomar, Porto",
+    "github": "https://github.com/FilipaLVMartins",
+    "linkedin": "https://www.linkedin.com/in/filipa-martins-9415033b8/"
+  }
+}
