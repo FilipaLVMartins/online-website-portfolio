@@ -10,8 +10,8 @@ def build_website():
     env = Environment(loader=FileSystemLoader('.'))
     template = env.get_template('template.html')
 
-    # 3. Render final HTML
-    output_html = template.render(data)
+    # 3. Render final HTML (o ** passa as chaves do JSON como variáveis diretas)
+    output_html = template.render(**data)
 
     # 4. Save to index.html
     with open('index.html', 'w', encoding='utf-8') as f:

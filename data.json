@@ -3,13 +3,22 @@
   "subtitle": "Informatics & Computing Engineering Student FEUP",
   "about": "Passionate about technology and software development. Currently in my 2nd year of the Bachelor's degree in Informatics and Computing Engineering at FEUP, focused on problem-solving, algorithm optimization, and building interactive applications.",
   "skills": ["Python", "C++", "Java", "HTML/CSS/JavaScript", "Git & GitHub", "SupaBase"],
-  "game": {
-    "title": "Guess The Song",
-    "subtitle": "Music Trivia Challenge",
-    "description": "An interactive web-based music trivia guessing game.",
-    "image": "static/images/capa.jpg",
-    "itch_url": "https://filipalvmartins.itch.io/guess-the-song"
-  },
+  "games": [
+    {
+      "title": "Guess The Song",
+      "subtitle": "Music Trivia Challenge",
+      "description": "An interactive web-based music trivia guessing game.",
+      "image": "static/images/capa.jpg",
+      "itch_url": "https://filipalvmartins.itch.io/guess-the-song"
+    },
+    {
+      "title": "Viral Streamer: From Bedroom to Planet",
+      "subtitle": "Idle / Simulation Game",
+      "description": "Start your streaming channel and build a massive online empire from your mom's bedroom all the way to outer space!",
+      "image": "static/images/Capa2.jpg",
+      "itch_url": "https://filipalvmartins.itch.io/viral-streamer-from-bedroom-to-planet"
+    }
+  ],
   "contacts": {
     "personal_email": "filipalvmartins@gmail.com",
     "academic_email": "up202505454@edu.fe.up.pt",

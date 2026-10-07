@@ -49,6 +49,14 @@
             font-weight: bold;
         }
 
+        /* Container para colocar os jogos um por baixo do outro */
+        .projects-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            margin-top: 20px;
+        }
+
         .game-card {
             background-color: var(--card-bg);
             border-radius: 12px;
@@ -64,7 +72,7 @@
             .game-card { grid-template-columns: 1fr; }
         }
 
-        .game-card img { width: 100%; height: 100%; object-fit: cover; }
+        .game-card img { width: 100%; height: 100%; object-fit: cover; min-height: 220px; }
         .game-info { padding: 25px; display: flex; flex-direction: column; justify-content: center; }
 
         .btn {
@@ -90,7 +98,6 @@
         .contact-box p { margin: 8px 0; color: var(--text-muted); }
         .contact-box strong { color: var(--text-color); }
 
-        /* Estilos para os botões do GitHub e LinkedIn */
         .social-links {
             margin-top: 20px;
             display: flex;
@@ -129,32 +136,41 @@
             <h2>About Me</h2>
             <p>Passionate about technology and software development. Currently in my 2nd year of the Bachelor's degree in Informatics and Computing Engineering at FEUP, focused on problem-solving, algorithm optimization, and building interactive applications.</p>
             <div class="skills-grid">
-                
-                    <span class="skill-tag">Python</span>
-                
-                    <span class="skill-tag">C++</span>
-                
-                    <span class="skill-tag">Java</span>
-                
-                    <span class="skill-tag">HTML/CSS/JavaScript</span>
-                
-                    <span class="skill-tag">Git & GitHub</span>
-                
-                    <span class="skill-tag">SupaBase</span>
-                
+                <span class="skill-tag">Python</span>
+                <span class="skill-tag">C++</span>
+                <span class="skill-tag">Java</span>
+                <span class="skill-tag">HTML/CSS/JavaScript</span>
+                <span class="skill-tag">Git & GitHub</span>
+                <span class="skill-tag">SupaBase</span>
             </div>
         </section>
 
         <section>
-            <h2>Featured Project</h2>
-            <div class="game-card">
-                <img src="static/images/capa.jpg" alt="Guess The Song">
-                <div class="game-info">
-                    <h3>Guess The Song</h3>
-                    <p style="color: var(--secondary-neon); font-weight: bold;">Music Trivia Challenge</p>
-                    <p>An interactive web-based music trivia guessing game.</p>
-                    <a href="https://filipalvmartins.itch.io/guess-the-song" target="_blank" class="btn">Play on itch.io</a>
+            <h2>Featured Projects</h2>
+            <div class="projects-grid">
+
+                <!-- Jogo 1: Guess The Song (Cima) -->
+                <div class="game-card">
+                    <img src="static/images/capa.jpg" alt="Guess The Song">
+                    <div class="game-info">
+                        <h3>Guess The Song</h3>
+                        <p style="color: var(--secondary-neon); font-weight: bold;">Music Trivia Challenge</p>
+                        <p>An interactive web-based music trivia guessing game.</p>
+                        <a href="https://filipalvmartins.itch.io/guess-the-song" target="_blank" class="btn">Play on itch.io</a>
+                    </div>
                 </div>
+
+                <!-- Jogo 2: Viral Streamer (Baixo) -->
+                <div class="game-card">
+                    <img src="static/images/Capa2.jpg" alt="Viral Streamer: From Bedroom to Planet">
+                    <div class="game-info">
+                        <h3>Viral Streamer: From Bedroom to Planet</h3>
+                        <p style="color: var(--secondary-neon); font-weight: bold;">Idle / Simulation Game</p>
+                        <p>Start your streaming channel and build a massive online empire from your mom's bedroom all the way to outer space!</p>
+                        <a href="https://filipalvmartins.itch.io/viral-streamer-from-bedroom-to-planet" target="_blank" class="btn">Play on itch.io</a>
+                    </div>
+                </div>
+
             </div>
         </section>
 
@@ -167,19 +183,15 @@
                 <p><strong>Location:</strong> Gondomar, Porto</p>
                 
                 <div class="social-links">
-                    
-                        <a href="https://github.com/FilipaLVMartins" target="_blank" class="social-btn">GitHub Profile</a>
-                    
-                    
-                        <a href="https://www.linkedin.com/in/filipa-martins-9415033b8/" target="_blank" class="social-btn">LinkedIn Profile</a>
-                    
+                    <a href="https://github.com/FilipaLVMartins" target="_blank" class="social-btn">GitHub Profile</a>
+                    <a href="https://www.linkedin.com/in/filipa-martins-9415033b8/" target="_blank" class="social-btn">LinkedIn Profile</a>
                 </div>
             </div>
         </section>
     </div>
 
     <footer>
-        <p>© Filipa Martins — Generated with Python</p>
+        <p>© Filipa Martins — Portfolio</p>
     </footer>
 
 </body>
